@@ -32,8 +32,9 @@ header {
   margin-bottom: 1.5rem;
 }
 
-.nav__heading {
+.nav__heading-heading {
   font-size: 3rem;
+  font-family: 'Oswald', sans-serif;
   font-weight: 700;
   text-decoration: none;
   text-transform: uppercase;
@@ -46,6 +47,7 @@ header {
 
 .banner {
   display: flex;
+  height: fit-content;
 }
 
 .banner__img,
@@ -80,6 +82,7 @@ header {
   line-height: 6.5rem;
   color: #332e29;
   margin-bottom: 4rem;
+  font-family: 'Oswald', sans-serif;
 }
 
 .banner__text-para {
@@ -121,7 +124,7 @@ header {
 
 .about-us {
   display: flex;
-  height: 80vh;
+  height: fit-content;
   width: 100%;
   justify-content: space-between;
 
@@ -129,13 +132,13 @@ header {
 
 
 .info-box {
-  height: 70%;
+  height: 50vh;
   width: 31.9%;
   background-color: #fff;
   margin-top: 70px;
   text-align: center;
   align-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 35px;
 
 }
 
@@ -170,25 +173,22 @@ header {
 
 .double-layout {
   display: flex;
+  height: fit-content;
   flex-direction: column;
   
 }
 
 .top-layout,
 .bottom-layout {
-  height: 60.5vh;
   width: 100%;
   
 }
 
 .top-layout {
-
-  display: flex;
-  
+ display: flex; 
 }
 
 .bottom-layout {
-  
   display: flex;
 }
 
@@ -212,8 +212,13 @@ header {
     
 }
 
+.picture-layout-bottom,
+.picture-layout-top {
+height: 60vh;
+
+}
+
 .picture-layout-bottom {
-  height: 100%;
   width: 50%;
   background-image: url(../images/interior-hanger.jpg);
   background-repeat: no-repeat;
@@ -222,8 +227,8 @@ header {
   
 }
 .text-layout-bottom {
-  height: 100%;
   width: 50%;
+  height: 100%;
   background-color: #332e29;
   color: white;
   
@@ -313,7 +318,7 @@ header {
 }
 
 .design-ideas {
-  height: 150vh;
+  height: fit-content;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -323,7 +328,7 @@ header {
 
 .container-ideas {
   width: 85%;
-  height: 93%;
+  /* height: 93%; */
   display: flex;
   flex-direction: column;
 
@@ -337,6 +342,10 @@ header {
   
 }
 
+.interior-ideas {
+  
+}
+
 .interior-design {
   font-size: 5rem;
   font-family: 'Oswald', sans-serif;
@@ -344,16 +353,38 @@ header {
   color: #332e29;
   font-weight: 900;
   margin: 70px 0 0;
+
 }
 
 .design-pictures {
-  height: 75%;
-  width: 100%;
   display: flex;
+  margin-top: 30px;
+}
+
+
+
+.hiring-ideas {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.top-text-picture,.multi-text-picture {
+  display: flex;
+
+}
+
+
+.interior-advice {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
 }
 
 .exterior-picture {
-  height: 100%;
+  height: 100vh;
   width: 50%;
   background-image: url(../images/corridor.jpg);
   background-repeat: no-repeat;
@@ -362,49 +393,30 @@ header {
 
 }
 
-.hiring-ideas {
-  height: 100%;
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-}
-
-.top-text-picture,.multi-text-picture {
-  height: calc(100% / 2);
-}
-
-
-.interior-advice {
-  width: 50%;
-  height: 50%;
-  
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #ffffff;
-}
-
 .text {
- height: 70%;
- width: 90%;
- 
- 
  
 }
 
 .u-text {
-  font-family: open-sans,sans-serif;
-  font-size: 1.7rem;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.6rem;
+  width: 80%;
+  line-height: 2.5rem;
   text-transform: capitalize;
   color: #111111;
-  margin-top: 25px;
+  padding: 25px;
+}
+
+.sculpture-funiture-picture-1,
+.sculpture-funiture-picture-2{
+height: 50vh;
+width: 50%;
 }
 
 
 
-.sculpture-funiture-picture {
-  width: 50%;
-  height: 50%;
+
+.sculpture-funiture-picture-1 {
   background-image: url(../images/faces.jpg);
   background-size: cover;
   background-position: bottom;
@@ -412,14 +424,12 @@ header {
 }
 
 .sculpture-funiture-picture-2 {
-  width: 50%;
-  height: 50%;
   background-image: url(../images/cylindrical-pillow.jpg);
   background-size: cover;
 }
 
 .infomation-area {
-  height: 140vh;
+  height:fit-content;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -428,17 +438,15 @@ header {
 }
 
 .infomation-container {
-  width: 85%;
-  height: 100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   text-align: center;
-
-
+  
 }
 
 .infomation-text {
-  height: 35%;
+  height: 35vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -448,7 +456,6 @@ header {
 }
 
 .home-apartment {
-  height: 80%;
   width: 70%;
   display: flex;
   flex-direction: column;
@@ -464,7 +471,7 @@ header {
 }
 
 .home-para {
-  font-family: open-sans,sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1.8rem;
   margin: 20px 0px 15px;
   width: 90%;
@@ -481,20 +488,22 @@ header {
 }
 
 .double-interior-pics {
- width: 100%;
- height: 91%;
+ width: 85%;
  align-self: center;
  display: flex;
  flex-direction: row;
+ justify-content: center;
+ align-items: center;
  justify-content: space-between;
+ margin-bottom: 25px;
  
 }
 
 .simple-bedroom-pic,
 .advanced-relaxation-chair-design {
-  height: 100%;
-  width: 48.8%;
-  
+  height: 85vh;
+  width: 49.1%;
+  margin-bottom: 35px;
 
 }
 
@@ -502,7 +511,7 @@ header {
  background-image: url(../images/room-view.jpg);
  background-repeat: no-repeat;
  background-size: cover;
- background-position: bottom  20%;
+ background-position: center;
 }
 
 .advanced-relaxation-chair-design{
@@ -513,30 +522,34 @@ header {
 
 }
 
-.freash-awesome-section {
- height: 90vh;
+.fresh-awesome-section {
+ height: fit-content;
  width: 100%;
  display: flex;
  flex-direction: row;
  background-color: #ccbfb1;
  justify-content: center;
  align-items: center;
+
 }
 
 .company-motto {
-  height: 78%;
   width: 85%;
+  height: 65vh;
   display: flex;
   justify-content: space-between;
+  align-self: center;
+  
 }
 
 .awesome-comment,
 .fresh-comment {
  width: 48.7%;
- height: 100%;
  display: flex;
  background-color: #ffffff;
  justify-content: center;
+ margin-top: 25px;
+ margin-bottom: 25px;
 }
 
 .review {
@@ -567,9 +580,9 @@ header {
 .review-para-2 {
   color: #111111;
   font-size: 1.8rem;
-  font-family: open-sans,sans-serif;
+  font-family: 'Open Sans', sans-serif;
   word-wrap: break-word;
-  line-height: 2.3rem;
+  line-height: 2.7rem;
   margin: 32px 0px 33px;
 }
 
@@ -629,7 +642,7 @@ header {
 
 .contact-us-para {
   font-size: 1.6rem;
-  font-family: open-sans,sans-serif;
+  font-family: 'Open Sans', sans-serif;
   word-wrap: break-word;
   line-height: 3rem;
   color: #ffffff;
@@ -640,7 +653,7 @@ header {
   text-decoration: none;
   color: #b5e5e6;
   font-size: 1.5rem;
-  font-family: open-sans,sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin: 18px 0px 0px;
 }
 
@@ -777,14 +790,14 @@ border: 1px solid crimso}
     
   .about-us {
     display: flex;
-    height: 80vh;
+    height: fit-content;
     width: 100%;
     justify-content: space-between
     
   }
 
   .info-box {
-    height: 73%;
+    height: 57vh ;
     width: 31.9%;
     margin-top: 56px;
     margin-bottom: 9px;
@@ -859,6 +872,24 @@ border: 1px solid crimso}
   .form-action-box {
     height: 100%;
   }
+   
+
+  .design-pictures {
+    flex-direction: column;
+    display: flex;
+    margin-top: 1.5rem
+  }
+
+  .exterior-picture {
+    height: 100vh;
+    width: 100%;
+  }
+
+  .hiring-ideas {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
 
 
 
@@ -866,7 +897,210 @@ border: 1px solid crimso}
 }
 
 @media screen and (max-width: 40rem) {
+  .banner__text-heading {
+    font-size: 4.0rem;
+    line-height: 6.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .banner__text-para {
+    font-size: 1.4rem;
+    
+  }
+
+  .banner__text {
+    height: 42%;
+  }
+
+  .banner__text-footer {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+  }
+
   
 
+  .banner__text-footer-img {
+    width: 100%;
+    height: 63vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 81% bottom;
+  }
+
+  .banner__text-footer-img:nth-child(3) {
+    background-image: url(../images/chair.jpg);
+    display: none;
+  }
+
+  .banner__text-footer-img:nth-child(2) {
+   margin-bottom: 10px; 
+
+  }
+
+  .about-us {
+    height: fit-content;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+  }
+
+  .info-box {
+    height: 44vh;
+    width: 100%;
+    margin-top: 5px;
+  }
+
+  .double-layout {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .top-layout {
+    display: flex;
+    flex-direction: column
+  }
+
+  .bottom-layout {
+    display: flex;
+    flex-direction: column;
+  }
+   
+  .text-layout-bottom,
+  .text-layout-top {
+   width: 100%;
+  }
+  .picture-layout-bottom,
+  .picture-layout-top {
+    height: 75vh;
+    width: 100%;
+  }
+
+  .bottom-text-heading,
+  .top-text-heading {
+    margin-top: 44px;
+    margin-left: 34px;
+  }
+
+  .new-ideas {
+    color: #332e29;
+    font-size: 2rem;
+  }  
+
+  .lorem {
+    font-size: 1.6rem;
+    width: 100%;
+  }
+
+
+  .top-text-picture, .multi-text-picture {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .interior-advice {
+    width: 100%;
+
+  }
+
+  .sculpture-funiture-picture-1, .sculpture-funiture-picture-2 {
+    height: 75vh;
+    width: 100%
+  }
+
+  .home-apartment {
+    width: 70%;
+    height: 30vh;
+  }
+
+  .home-heading {
+    font-size: 3rem;
+    margin-top: 15px;
+  }
+
+  .home-para {
+    font-size: 1.6rem;
+    margin: 0px 0px 6px;
+  }
+
+  .double-interior-pics {
+    flex-direction: column;
+  }
+
+  .simple-bedroom-pic, .advanced-relaxation-chair-design {
+    height: 85vh;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+
+  .company-motto {
+    width: 85%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .awesome-comment, .fresh-comment {
+    width: 100%;
+    display: flex
+  }
+
+  .awesome-comment{
+    margin-top: 15px;
+  }
+
+  .fresh-comment {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .find-us {
+    height: fit-content;
+    width: 100%;
+  }
+
+  .find-us-container {
+    width: 85%;
+    display: flex;
+  }
+
+  .contact-us-form-map {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 14px;
+  }
+
+  .form-box {
+    width: 100%;
+    height: 100%;
+  }
+
+  .google-map {
+    width: 100%;
+  }
+
+
+  .footer {
+    height: fit-content;
+    width: 100%;
+  }
+
+  .heading-para-container {
+    width: 100%;
+    height: 30vh;
+  }
+
+  .sample-text-para {
+    padding-top: 12px;
+  }
+  
+  .sample-text-para {
+    padding-top: 12px;
+    width: 100%
+  }
 
 }
