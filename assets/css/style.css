@@ -1019,7 +1019,7 @@ border: 1px solid crimso}
   }
 
   .home-para {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     margin: 0px 0px 6px;
   }
 
@@ -1093,7 +1093,10 @@ border: 1px solid crimso}
     width: 100%;
     height: 30vh;
   }
-
+  .sample-text-heading {
+    margin-top: 30px;
+  }
+  
   .sample-text-para {
     padding-top: 12px;
   }
