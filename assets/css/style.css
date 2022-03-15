@@ -535,7 +535,6 @@ width: 50%;
 
 .company-motto {
   width: 85%;
-  height: 65vh;
   display: flex;
   justify-content: space-between;
   align-self: center;
@@ -544,17 +543,18 @@ width: 50%;
 
 .awesome-comment,
 .fresh-comment {
- width: 48.7%;
+ width: 48.9%;
+ height: 60vh;
  display: flex;
  background-color: #ffffff;
  justify-content: center;
- margin-top: 25px;
- margin-bottom: 25px;
+ margin-top: 40px;
+ margin-bottom: 40px;
 }
 
 .review {
   height: 100%;
-  width: 81%;
+  width: 86%;
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -573,7 +573,8 @@ width: 50%;
   font-family: 'Oswald', sans-serif;
   font-size: 3.6rem;
   text-transform: capitalize;
-  margin: 33px 0px 0px;
+  margin: 27px 0px 0px;
+
 }
 
 
@@ -583,7 +584,9 @@ width: 50%;
   font-family: 'Open Sans', sans-serif;
   word-wrap: break-word;
   line-height: 2.7rem;
-  margin: 32px 0px 33px;
+  margin: 27px 0px 33px;
+  padding-bottom: 50px;
+  
 }
 
 .find-us {
@@ -838,6 +841,7 @@ border: 1px solid crimso}
   .review-para-1 {
     color: #332e29;
     font-size: 2.6rem;
+    margin: 5px 0px 0px
   }
 
 
